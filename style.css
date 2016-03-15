@@ -1,0 +1,202 @@
+html{
+    height: 100%;
+}
+body {
+    background: -webkit-linear-gradient(rgba(155, 228, 102, .0) 0%, rgba(155, 228, 102, .0) 50%, rgba(155, 228, 102, .4) 50%, rgba(155, 228, 102, .4) 100%),
+    -webkit-linear-gradient(left, rgba(155, 228, 102, .0) 0%, rgba(155, 228, 102, .0) 50%, rgba(155, 228, 102, .4) 50%, rgba(155, 228, 102, .4) 100%);
+    background-size: 100px 100px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 0px;
+    background-color: #e3d8a6;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    color: #524e52;
+}
+h2{
+    border-bottom: dashed;
+    color: #54770f;
+    margin:0;
+}
+h3{
+    margin:0;
+}
+#block {
+    background-color:  rgba(102, 102, 102, 0.41);
+    width:100%;
+    height:100%;
+    position: fixed;
+    left:0px;
+    bottom: 0%;
+    z-index: 2;
+}
+#addCard {
+    padding-top:10px;
+    position:absolute;
+    right: 40%;
+    left: auto;
+    top:30%;
+    z-index: 3;
+}
+#add{
+    margin: 10px;
+    float: left;
+}
+#cards{
+    position: relative;
+    width: 100%;
+}
+#cards>div{
+    position: absolute;
+}
+div.card{
+    background-color: #fff7dd;
+    margin: 11px;
+    padding: 10px;
+    padding-top: 0;
+    color: #524e52;
+    float: left;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 20px;
+}
+/*Mega*/
+    .mega div{
+        -webkit-box-shadow: none;
+        margin: 0;
+    }
+    .mega>div>h2{
+        font-size: medium;
+        border-bottom: dotted;
+        color: #524e52;
+    }
+    .mega>div>h3{
+        font-size: small;
+    }
+/*Clock*/
+    div.clock{
+        padding: 15.5px;
+        -webkit-box-shadow: none;
+    }
+    div.clock>div{
+        align-self:center;
+        padding: 10px
+        margin: 5px;
+        float: left;
+        -webkit-box-shadow: none;
+        border-bottom: dashed;
+        border-top: dashed;
+    }
+    div.clock>div>div{
+        height: 35px;
+        width: 35px;
+        margin: 11px;
+        float: left;
+        -webkit-box-shadow: none;
+    }
+    div.hourOne>div{
+        background-color: rgba(74, 133, 228, 0.2);
+    }
+    div.hourTwo>div{
+        background-color: rgba(112, 77, 228, 0.2);
+    }
+    div.minuteOne>div{
+        background-color: rgba(228, 83, 96, 0.2);
+    }
+    div.minuteTwo>div{
+        background-color: rgba(228, 151, 13, 0.2);
+    }
+    div.secondOne>div{
+        background-color: rgba(202, 228, 122, 0.2);
+    }
+    div.secondTwo>div{
+        background-color: rgba(107, 228, 122, 0.2);
+    }
+/*Slick*/
+    div.slick-slide{
+        padding:10px;
+        float: left;
+    }
+/*Weather*/
+    div.forecastSection{
+        color: #524e52;
+        float:left;
+        margin: 5px;
+        border-left: dashed;
+        border-top: dashed;
+    }
+    div.forecast{
+        padding:10px;
+        float: left;
+        border-right: dashed;
+        border-bottom: dashed;
+    }
+    div.current div{
+        float:left;
+        margin: 5px;
+    }
+    div.compass{
+        position: relative;
+        left:70%;
+        top:-60px;
+        border: 2px solid #524e52;
+        background: #ffffe3;
+        width:60px;
+        height: 60px;
+        border-radius: 60px;
+    }
+    span.north{
+        position:relative;
+        top:0%;
+        left:42%;
+    }
+    span.west{
+        position:relative;
+        left:-45%;
+        top:35%;
+    }
+    span.east{
+        position:relative;
+        left: 55%;
+        top:35%;
+    }
+    span.south{
+        position:relative;
+        left:8%;
+        top:70%;
+    }
+    div.pointer{
+        font-weight: bold;
+        color: #971a19;
+        width:10px;
+        text-align:center;
+        height:15px;
+        position:relative;
+        left:129px;
+        top:-37px;
+    }
+    div.stats{
+        position:relative;
+        top:9%;
+        padding:0px;
+        width:205px;
+    }
+    div.stats>div{
+        width:250px;
+    }
+    div.weatherIcon{
+        padding: 0;
+        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: #b5eeff;
+    }
+    div.threeHours{
+        position:relative; left:7%; border-left:dashed; padding:3px;
+    }
+    div.sixHours{
+        position:relative; left:6%; border-right:dashed; border-left:dashed; padding:3px;
+    }
